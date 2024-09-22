@@ -160,11 +160,16 @@ def read_source_code(filename):
 # It reads the source code, calls the lexer, and prints the tokens and lexemes.
 if __name__ == "__main__":
     logging.info("Lexer program started.")
+    
     source_code = read_source_code('testcase3.txt')  # Read from test file
+    
     tokens = lexer(source_code)  # Run the lexer
     
-    # Output the tokens and lexemes
-    for token, lexeme in tokens:
-        print(f"Token: {token}, Lexeme: {lexeme}")
-    
+    # Open the output file for writing the results
+    with open('output_tokens.txt', 'w') as output_file:
+        for token, lexeme in tokens:
+            output_line = f"Token: {token}, Lexeme: {lexeme}\n"
+            print(output_line.strip())  # Print to the console
+            output_file.write(output_line)  # Write to the output file
+
     logging.info("Lexer program completed.")
