@@ -1,0 +1,4 @@
+function calculate (value real) {
+    [* This is a simple function *]
+    return value * 3.14;
+}

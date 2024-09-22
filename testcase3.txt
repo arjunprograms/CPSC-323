@@ -1,0 +1,23 @@
+[* This is a sample Rat24F program *]
+
+function calculate_area(radius real)
+{
+    real area;
+    if (radius > 0) {
+        area = 3.14159 * radius * radius;
+        return area;
+    } else {
+        return 0;
+    }
+}
+
+integer length, width;
+real height, volume;
+
+length = 10;
+width = 5;
+height = 7.5;
+
+volume = calculate_area(length) * height / 3.0;
+
+put(volume);
