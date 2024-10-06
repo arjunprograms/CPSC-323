@@ -1,409 +1,48 @@
-2024-09-22 00:27:10,065 - INFO - Lexer program started.
-2024-09-22 00:27:10,066 - INFO - Reading source code from file: testcase3.txt
-2024-09-22 00:27:10,066 - INFO - Lexer started processing source code.
-2024-09-22 00:27:10,067 - DEBUG - Processing character: '[' at position 0
-2024-09-22 00:27:10,067 - INFO - Comment block detected.
-2024-09-22 00:27:10,067 - DEBUG - Comment block ends at position 35
-2024-09-22 00:27:10,067 - DEBUG - Skipped comment block, new position: 37
-2024-09-22 00:27:10,067 - DEBUG - Processing character: '
-' at position 37
-2024-09-22 00:27:10,067 - DEBUG - Skipping whitespace at position 37
-2024-09-22 00:27:10,067 - DEBUG - Processing character: '
-' at position 38
-2024-09-22 00:27:10,068 - DEBUG - Skipping whitespace at position 38
-2024-09-22 00:27:10,068 - DEBUG - Processing character: 'f' at position 39
-2024-09-22 00:27:10,068 - DEBUG - Identifier detected: function
-2024-09-22 00:27:10,068 - DEBUG - Identifier detected: function
-2024-09-22 00:27:10,068 - DEBUG - Processing character: ' ' at position 47
-2024-09-22 00:27:10,068 - DEBUG - Skipping whitespace at position 47
-2024-09-22 00:27:10,068 - DEBUG - Processing character: 'c' at position 48
-2024-09-22 00:27:10,068 - DEBUG - Identifier detected: calculate_area
-2024-09-22 00:27:10,069 - DEBUG - Identifier detected: calculate_area
-2024-09-22 00:27:10,069 - DEBUG - Processing character: '(' at position 62
-2024-09-22 00:27:10,069 - DEBUG - Separator detected: (
-2024-09-22 00:27:10,069 - DEBUG - Processing character: 'r' at position 63
-2024-09-22 00:27:10,070 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,070 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,070 - DEBUG - Processing character: ' ' at position 69
-2024-09-22 00:27:10,070 - DEBUG - Skipping whitespace at position 69
-2024-09-22 00:27:10,070 - DEBUG - Processing character: 'r' at position 70
-2024-09-22 00:27:10,070 - DEBUG - Identifier detected: real
-2024-09-22 00:27:10,071 - DEBUG - Identifier detected: real
-2024-09-22 00:27:10,071 - DEBUG - Processing character: ')' at position 74
-2024-09-22 00:27:10,071 - DEBUG - Separator detected: )
-2024-09-22 00:27:10,071 - DEBUG - Processing character: '
-' at position 75
-2024-09-22 00:27:10,071 - DEBUG - Skipping whitespace at position 75
-2024-09-22 00:27:10,071 - DEBUG - Processing character: '{' at position 76
-2024-09-22 00:27:10,071 - DEBUG - Separator detected: {
-2024-09-22 00:27:10,071 - DEBUG - Processing character: '
-' at position 77
-2024-09-22 00:27:10,071 - DEBUG - Skipping whitespace at position 77
-2024-09-22 00:27:10,071 - DEBUG - Processing character: ' ' at position 78
-2024-09-22 00:27:10,072 - DEBUG - Skipping whitespace at position 78
-2024-09-22 00:27:10,072 - DEBUG - Processing character: ' ' at position 79
-2024-09-22 00:27:10,072 - DEBUG - Skipping whitespace at position 79
-2024-09-22 00:27:10,072 - DEBUG - Processing character: ' ' at position 80
-2024-09-22 00:27:10,072 - DEBUG - Skipping whitespace at position 80
-2024-09-22 00:27:10,072 - DEBUG - Processing character: ' ' at position 81
-2024-09-22 00:27:10,072 - DEBUG - Skipping whitespace at position 81
-2024-09-22 00:27:10,072 - DEBUG - Processing character: 'r' at position 82
-2024-09-22 00:27:10,072 - DEBUG - Identifier detected: real
-2024-09-22 00:27:10,072 - DEBUG - Identifier detected: real
-2024-09-22 00:27:10,072 - DEBUG - Processing character: ' ' at position 86
-2024-09-22 00:27:10,073 - DEBUG - Skipping whitespace at position 86
-2024-09-22 00:27:10,073 - DEBUG - Processing character: 'a' at position 87
-2024-09-22 00:27:10,073 - DEBUG - Identifier detected: area
-2024-09-22 00:27:10,073 - DEBUG - Identifier detected: area
-2024-09-22 00:27:10,073 - DEBUG - Processing character: ';' at position 91
-2024-09-22 00:27:10,073 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,073 - DEBUG - Processing character: '
-' at position 92
-2024-09-22 00:27:10,073 - DEBUG - Skipping whitespace at position 92
-2024-09-22 00:27:10,074 - DEBUG - Processing character: ' ' at position 93
-2024-09-22 00:27:10,074 - DEBUG - Skipping whitespace at position 93
-2024-09-22 00:27:10,074 - DEBUG - Processing character: ' ' at position 94
-2024-09-22 00:27:10,074 - DEBUG - Skipping whitespace at position 94
-2024-09-22 00:27:10,074 - DEBUG - Processing character: ' ' at position 95
-2024-09-22 00:27:10,074 - DEBUG - Skipping whitespace at position 95
-2024-09-22 00:27:10,074 - DEBUG - Processing character: ' ' at position 96
-2024-09-22 00:27:10,074 - DEBUG - Skipping whitespace at position 96
-2024-09-22 00:27:10,074 - DEBUG - Processing character: 'i' at position 97
-2024-09-22 00:27:10,074 - DEBUG - Identifier detected: if
-2024-09-22 00:27:10,074 - DEBUG - Keyword detected: if
-2024-09-22 00:27:10,074 - DEBUG - Processing character: ' ' at position 99
-2024-09-22 00:27:10,074 - DEBUG - Skipping whitespace at position 99
-2024-09-22 00:27:10,074 - DEBUG - Processing character: '(' at position 100
-2024-09-22 00:27:10,075 - DEBUG - Separator detected: (
-2024-09-22 00:27:10,075 - DEBUG - Processing character: 'r' at position 101
-2024-09-22 00:27:10,075 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,075 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,075 - DEBUG - Processing character: ' ' at position 107
-2024-09-22 00:27:10,075 - DEBUG - Skipping whitespace at position 107
-2024-09-22 00:27:10,075 - DEBUG - Processing character: '>' at position 108
-2024-09-22 00:27:10,075 - DEBUG - Operator detected: >
-2024-09-22 00:27:10,075 - DEBUG - Processing character: ' ' at position 109
-2024-09-22 00:27:10,075 - DEBUG - Skipping whitespace at position 109
-2024-09-22 00:27:10,075 - DEBUG - Processing character: '0' at position 110
-2024-09-22 00:27:10,075 - DEBUG - Number detected: 0, Real: False
-2024-09-22 00:27:10,076 - DEBUG - Integer detected: 0
-2024-09-22 00:27:10,076 - DEBUG - Processing character: ')' at position 111
-2024-09-22 00:27:10,076 - DEBUG - Separator detected: )
-2024-09-22 00:27:10,076 - DEBUG - Processing character: ' ' at position 112
-2024-09-22 00:27:10,076 - DEBUG - Skipping whitespace at position 112
-2024-09-22 00:27:10,076 - DEBUG - Processing character: '{' at position 113
-2024-09-22 00:27:10,076 - DEBUG - Separator detected: {
-2024-09-22 00:27:10,076 - DEBUG - Processing character: '
-' at position 114
-2024-09-22 00:27:10,076 - DEBUG - Skipping whitespace at position 114
-2024-09-22 00:27:10,076 - DEBUG - Processing character: ' ' at position 115
-2024-09-22 00:27:10,077 - DEBUG - Skipping whitespace at position 115
-2024-09-22 00:27:10,077 - DEBUG - Processing character: ' ' at position 116
-2024-09-22 00:27:10,077 - DEBUG - Skipping whitespace at position 116
-2024-09-22 00:27:10,077 - DEBUG - Processing character: ' ' at position 117
-2024-09-22 00:27:10,077 - DEBUG - Skipping whitespace at position 117
-2024-09-22 00:27:10,077 - DEBUG - Processing character: ' ' at position 118
-2024-09-22 00:27:10,077 - DEBUG - Skipping whitespace at position 118
-2024-09-22 00:27:10,077 - DEBUG - Processing character: ' ' at position 119
-2024-09-22 00:27:10,077 - DEBUG - Skipping whitespace at position 119
-2024-09-22 00:27:10,077 - DEBUG - Processing character: ' ' at position 120
-2024-09-22 00:27:10,077 - DEBUG - Skipping whitespace at position 120
-2024-09-22 00:27:10,078 - DEBUG - Processing character: ' ' at position 121
-2024-09-22 00:27:10,078 - DEBUG - Skipping whitespace at position 121
-2024-09-22 00:27:10,078 - DEBUG - Processing character: ' ' at position 122
-2024-09-22 00:27:10,078 - DEBUG - Skipping whitespace at position 122
-2024-09-22 00:27:10,078 - DEBUG - Processing character: 'a' at position 123
-2024-09-22 00:27:10,078 - DEBUG - Identifier detected: area
-2024-09-22 00:27:10,078 - DEBUG - Identifier detected: area
-2024-09-22 00:27:10,078 - DEBUG - Processing character: ' ' at position 127
-2024-09-22 00:27:10,078 - DEBUG - Skipping whitespace at position 127
-2024-09-22 00:27:10,078 - DEBUG - Processing character: '=' at position 128
-2024-09-22 00:27:10,078 - DEBUG - Operator detected: =
-2024-09-22 00:27:10,079 - DEBUG - Processing character: ' ' at position 129
-2024-09-22 00:27:10,079 - DEBUG - Skipping whitespace at position 129
-2024-09-22 00:27:10,079 - DEBUG - Processing character: '3' at position 130
-2024-09-22 00:27:10,079 - DEBUG - Number detected: 3.14159, Real: True
-2024-09-22 00:27:10,079 - DEBUG - Real number detected: 3.14159
-2024-09-22 00:27:10,079 - DEBUG - Processing character: ' ' at position 137
-2024-09-22 00:27:10,079 - DEBUG - Skipping whitespace at position 137
-2024-09-22 00:27:10,079 - DEBUG - Processing character: '*' at position 138
-2024-09-22 00:27:10,079 - DEBUG - Operator detected: *
-2024-09-22 00:27:10,079 - DEBUG - Processing character: ' ' at position 139
-2024-09-22 00:27:10,079 - DEBUG - Skipping whitespace at position 139
-2024-09-22 00:27:10,079 - DEBUG - Processing character: 'r' at position 140
-2024-09-22 00:27:10,079 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,079 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,080 - DEBUG - Processing character: ' ' at position 146
-2024-09-22 00:27:10,080 - DEBUG - Skipping whitespace at position 146
-2024-09-22 00:27:10,080 - DEBUG - Processing character: '*' at position 147
-2024-09-22 00:27:10,080 - DEBUG - Operator detected: *
-2024-09-22 00:27:10,080 - DEBUG - Processing character: ' ' at position 148
-2024-09-22 00:27:10,080 - DEBUG - Skipping whitespace at position 148
-2024-09-22 00:27:10,080 - DEBUG - Processing character: 'r' at position 149
-2024-09-22 00:27:10,080 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,080 - DEBUG - Identifier detected: radius
-2024-09-22 00:27:10,080 - DEBUG - Processing character: ';' at position 155
-2024-09-22 00:27:10,080 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,080 - DEBUG - Processing character: '
-' at position 156
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 156
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 157
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 157
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 158
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 158
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 159
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 159
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 160
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 160
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 161
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 161
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 162
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 162
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 163
-2024-09-22 00:27:10,081 - DEBUG - Skipping whitespace at position 163
-2024-09-22 00:27:10,081 - DEBUG - Processing character: ' ' at position 164
-2024-09-22 00:27:10,082 - DEBUG - Skipping whitespace at position 164
-2024-09-22 00:27:10,082 - DEBUG - Processing character: 'r' at position 165
-2024-09-22 00:27:10,082 - DEBUG - Identifier detected: return
-2024-09-22 00:27:10,082 - DEBUG - Keyword detected: return
-2024-09-22 00:27:10,082 - DEBUG - Processing character: ' ' at position 171
-2024-09-22 00:27:10,082 - DEBUG - Skipping whitespace at position 171
-2024-09-22 00:27:10,082 - DEBUG - Processing character: 'a' at position 172
-2024-09-22 00:27:10,082 - DEBUG - Identifier detected: area
-2024-09-22 00:27:10,082 - DEBUG - Identifier detected: area
-2024-09-22 00:27:10,082 - DEBUG - Processing character: ';' at position 176
-2024-09-22 00:27:10,082 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,082 - DEBUG - Processing character: '
-' at position 177
-2024-09-22 00:27:10,082 - DEBUG - Skipping whitespace at position 177
-2024-09-22 00:27:10,082 - DEBUG - Processing character: ' ' at position 178
-2024-09-22 00:27:10,083 - DEBUG - Skipping whitespace at position 178
-2024-09-22 00:27:10,083 - DEBUG - Processing character: ' ' at position 179
-2024-09-22 00:27:10,083 - DEBUG - Skipping whitespace at position 179
-2024-09-22 00:27:10,083 - DEBUG - Processing character: ' ' at position 180
-2024-09-22 00:27:10,083 - DEBUG - Skipping whitespace at position 180
-2024-09-22 00:27:10,083 - DEBUG - Processing character: ' ' at position 181
-2024-09-22 00:27:10,083 - DEBUG - Skipping whitespace at position 181
-2024-09-22 00:27:10,083 - DEBUG - Processing character: '}' at position 182
-2024-09-22 00:27:10,083 - DEBUG - Separator detected: }
-2024-09-22 00:27:10,083 - DEBUG - Processing character: ' ' at position 183
-2024-09-22 00:27:10,083 - DEBUG - Skipping whitespace at position 183
-2024-09-22 00:27:10,083 - DEBUG - Processing character: 'e' at position 184
-2024-09-22 00:27:10,084 - DEBUG - Identifier detected: else
-2024-09-22 00:27:10,084 - DEBUG - Keyword detected: else
-2024-09-22 00:27:10,084 - DEBUG - Processing character: ' ' at position 188
-2024-09-22 00:27:10,084 - DEBUG - Skipping whitespace at position 188
-2024-09-22 00:27:10,084 - DEBUG - Processing character: '{' at position 189
-2024-09-22 00:27:10,084 - DEBUG - Separator detected: {
-2024-09-22 00:27:10,084 - DEBUG - Processing character: '
-' at position 190
-2024-09-22 00:27:10,084 - DEBUG - Skipping whitespace at position 190
-2024-09-22 00:27:10,084 - DEBUG - Processing character: ' ' at position 191
-2024-09-22 00:27:10,084 - DEBUG - Skipping whitespace at position 191
-2024-09-22 00:27:10,084 - DEBUG - Processing character: ' ' at position 192
-2024-09-22 00:27:10,084 - DEBUG - Skipping whitespace at position 192
-2024-09-22 00:27:10,084 - DEBUG - Processing character: ' ' at position 193
-2024-09-22 00:27:10,085 - DEBUG - Skipping whitespace at position 193
-2024-09-22 00:27:10,085 - DEBUG - Processing character: ' ' at position 194
-2024-09-22 00:27:10,085 - DEBUG - Skipping whitespace at position 194
-2024-09-22 00:27:10,085 - DEBUG - Processing character: ' ' at position 195
-2024-09-22 00:27:10,085 - DEBUG - Skipping whitespace at position 195
-2024-09-22 00:27:10,085 - DEBUG - Processing character: ' ' at position 196
-2024-09-22 00:27:10,085 - DEBUG - Skipping whitespace at position 196
-2024-09-22 00:27:10,086 - DEBUG - Processing character: ' ' at position 197
-2024-09-22 00:27:10,086 - DEBUG - Skipping whitespace at position 197
-2024-09-22 00:27:10,086 - DEBUG - Processing character: ' ' at position 198
-2024-09-22 00:27:10,086 - DEBUG - Skipping whitespace at position 198
-2024-09-22 00:27:10,086 - DEBUG - Processing character: 'r' at position 199
-2024-09-22 00:27:10,086 - DEBUG - Identifier detected: return
-2024-09-22 00:27:10,086 - DEBUG - Keyword detected: return
-2024-09-22 00:27:10,087 - DEBUG - Processing character: ' ' at position 205
-2024-09-22 00:27:10,087 - DEBUG - Skipping whitespace at position 205
-2024-09-22 00:27:10,087 - DEBUG - Processing character: '0' at position 206
-2024-09-22 00:27:10,087 - DEBUG - Number detected: 0, Real: False
-2024-09-22 00:27:10,087 - DEBUG - Integer detected: 0
-2024-09-22 00:27:10,087 - DEBUG - Processing character: ';' at position 207
-2024-09-22 00:27:10,087 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,088 - DEBUG - Processing character: '
-' at position 208
-2024-09-22 00:27:10,088 - DEBUG - Skipping whitespace at position 208
-2024-09-22 00:27:10,088 - DEBUG - Processing character: ' ' at position 209
-2024-09-22 00:27:10,088 - DEBUG - Skipping whitespace at position 209
-2024-09-22 00:27:10,088 - DEBUG - Processing character: ' ' at position 210
-2024-09-22 00:27:10,088 - DEBUG - Skipping whitespace at position 210
-2024-09-22 00:27:10,088 - DEBUG - Processing character: ' ' at position 211
-2024-09-22 00:27:10,089 - DEBUG - Skipping whitespace at position 211
-2024-09-22 00:27:10,089 - DEBUG - Processing character: ' ' at position 212
-2024-09-22 00:27:10,089 - DEBUG - Skipping whitespace at position 212
-2024-09-22 00:27:10,089 - DEBUG - Processing character: '}' at position 213
-2024-09-22 00:27:10,089 - DEBUG - Separator detected: }
-2024-09-22 00:27:10,089 - DEBUG - Processing character: '
-' at position 214
-2024-09-22 00:27:10,089 - DEBUG - Skipping whitespace at position 214
-2024-09-22 00:27:10,089 - DEBUG - Processing character: '}' at position 215
-2024-09-22 00:27:10,090 - DEBUG - Separator detected: }
-2024-09-22 00:27:10,090 - DEBUG - Processing character: '
-' at position 216
-2024-09-22 00:27:10,090 - DEBUG - Skipping whitespace at position 216
-2024-09-22 00:27:10,090 - DEBUG - Processing character: '
-' at position 217
-2024-09-22 00:27:10,090 - DEBUG - Skipping whitespace at position 217
-2024-09-22 00:27:10,090 - DEBUG - Processing character: 'i' at position 218
-2024-09-22 00:27:10,091 - DEBUG - Identifier detected: integer
-2024-09-22 00:27:10,091 - DEBUG - Keyword detected: integer
-2024-09-22 00:27:10,091 - DEBUG - Processing character: ' ' at position 225
-2024-09-22 00:27:10,091 - DEBUG - Skipping whitespace at position 225
-2024-09-22 00:27:10,091 - DEBUG - Processing character: 'l' at position 226
-2024-09-22 00:27:10,091 - DEBUG - Identifier detected: length
-2024-09-22 00:27:10,091 - DEBUG - Identifier detected: length
-2024-09-22 00:27:10,091 - DEBUG - Processing character: ',' at position 232
-2024-09-22 00:27:10,091 - DEBUG - Separator detected: ,
-2024-09-22 00:27:10,091 - DEBUG - Processing character: ' ' at position 233
-2024-09-22 00:27:10,092 - DEBUG - Skipping whitespace at position 233
-2024-09-22 00:27:10,092 - DEBUG - Processing character: 'w' at position 234
-2024-09-22 00:27:10,092 - DEBUG - Identifier detected: width
-2024-09-22 00:27:10,092 - DEBUG - Identifier detected: width
-2024-09-22 00:27:10,092 - DEBUG - Processing character: ';' at position 239
-2024-09-22 00:27:10,092 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,092 - DEBUG - Processing character: '
-' at position 240
-2024-09-22 00:27:10,092 - DEBUG - Skipping whitespace at position 240
-2024-09-22 00:27:10,092 - DEBUG - Processing character: 'r' at position 241
-2024-09-22 00:27:10,092 - DEBUG - Identifier detected: real
-2024-09-22 00:27:10,092 - DEBUG - Identifier detected: real
-2024-09-22 00:27:10,093 - DEBUG - Processing character: ' ' at position 245
-2024-09-22 00:27:10,093 - DEBUG - Skipping whitespace at position 245
-2024-09-22 00:27:10,093 - DEBUG - Processing character: 'h' at position 246
-2024-09-22 00:27:10,093 - DEBUG - Identifier detected: height
-2024-09-22 00:27:10,093 - DEBUG - Identifier detected: height
-2024-09-22 00:27:10,093 - DEBUG - Processing character: ',' at position 252
-2024-09-22 00:27:10,094 - DEBUG - Separator detected: ,
-2024-09-22 00:27:10,094 - DEBUG - Processing character: ' ' at position 253
-2024-09-22 00:27:10,094 - DEBUG - Skipping whitespace at position 253
-2024-09-22 00:27:10,094 - DEBUG - Processing character: 'v' at position 254
-2024-09-22 00:27:10,094 - DEBUG - Identifier detected: volume
-2024-09-22 00:27:10,094 - DEBUG - Identifier detected: volume
-2024-09-22 00:27:10,094 - DEBUG - Processing character: ';' at position 260
-2024-09-22 00:27:10,094 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,095 - DEBUG - Processing character: '
-' at position 261
-2024-09-22 00:27:10,095 - DEBUG - Skipping whitespace at position 261
-2024-09-22 00:27:10,095 - DEBUG - Processing character: '
-' at position 262
-2024-09-22 00:27:10,095 - DEBUG - Skipping whitespace at position 262
-2024-09-22 00:27:10,095 - DEBUG - Processing character: 'l' at position 263
-2024-09-22 00:27:10,095 - DEBUG - Identifier detected: length
-2024-09-22 00:27:10,095 - DEBUG - Identifier detected: length
-2024-09-22 00:27:10,095 - DEBUG - Processing character: ' ' at position 269
-2024-09-22 00:27:10,095 - DEBUG - Skipping whitespace at position 269
-2024-09-22 00:27:10,095 - DEBUG - Processing character: '=' at position 270
-2024-09-22 00:27:10,096 - DEBUG - Operator detected: =
-2024-09-22 00:27:10,096 - DEBUG - Processing character: ' ' at position 271
-2024-09-22 00:27:10,096 - DEBUG - Skipping whitespace at position 271
-2024-09-22 00:27:10,096 - DEBUG - Processing character: '1' at position 272
-2024-09-22 00:27:10,096 - DEBUG - Number detected: 10, Real: False
-2024-09-22 00:27:10,096 - DEBUG - Integer detected: 10
-2024-09-22 00:27:10,096 - DEBUG - Processing character: ';' at position 274
-2024-09-22 00:27:10,096 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,096 - DEBUG - Processing character: '
-' at position 275
-2024-09-22 00:27:10,096 - DEBUG - Skipping whitespace at position 275
-2024-09-22 00:27:10,096 - DEBUG - Processing character: 'w' at position 276
-2024-09-22 00:27:10,096 - DEBUG - Identifier detected: width
-2024-09-22 00:27:10,097 - DEBUG - Identifier detected: width
-2024-09-22 00:27:10,097 - DEBUG - Processing character: ' ' at position 281
-2024-09-22 00:27:10,097 - DEBUG - Skipping whitespace at position 281
-2024-09-22 00:27:10,097 - DEBUG - Processing character: '=' at position 282
-2024-09-22 00:27:10,097 - DEBUG - Operator detected: =
-2024-09-22 00:27:10,097 - DEBUG - Processing character: ' ' at position 283
-2024-09-22 00:27:10,097 - DEBUG - Skipping whitespace at position 283
-2024-09-22 00:27:10,097 - DEBUG - Processing character: '5' at position 284
-2024-09-22 00:27:10,097 - DEBUG - Number detected: 5, Real: False
-2024-09-22 00:27:10,098 - DEBUG - Integer detected: 5
-2024-09-22 00:27:10,098 - DEBUG - Processing character: ';' at position 285
-2024-09-22 00:27:10,098 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,098 - DEBUG - Processing character: '
-' at position 286
-2024-09-22 00:27:10,098 - DEBUG - Skipping whitespace at position 286
-2024-09-22 00:27:10,098 - DEBUG - Processing character: 'h' at position 287
-2024-09-22 00:27:10,098 - DEBUG - Identifier detected: height
-2024-09-22 00:27:10,098 - DEBUG - Identifier detected: height
-2024-09-22 00:27:10,099 - DEBUG - Processing character: ' ' at position 293
-2024-09-22 00:27:10,099 - DEBUG - Skipping whitespace at position 293
-2024-09-22 00:27:10,099 - DEBUG - Processing character: '=' at position 294
-2024-09-22 00:27:10,099 - DEBUG - Operator detected: =
-2024-09-22 00:27:10,099 - DEBUG - Processing character: ' ' at position 295
-2024-09-22 00:27:10,099 - DEBUG - Skipping whitespace at position 295
-2024-09-22 00:27:10,099 - DEBUG - Processing character: '7' at position 296
-2024-09-22 00:27:10,099 - DEBUG - Number detected: 7.5, Real: True
-2024-09-22 00:27:10,099 - DEBUG - Real number detected: 7.5
-2024-09-22 00:27:10,099 - DEBUG - Processing character: ';' at position 299
-2024-09-22 00:27:10,100 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,100 - DEBUG - Processing character: '
-' at position 300
-2024-09-22 00:27:10,100 - DEBUG - Skipping whitespace at position 300
-2024-09-22 00:27:10,100 - DEBUG - Processing character: '
-' at position 301
-2024-09-22 00:27:10,100 - DEBUG - Skipping whitespace at position 301
-2024-09-22 00:27:10,100 - DEBUG - Processing character: 'v' at position 302
-2024-09-22 00:27:10,100 - DEBUG - Identifier detected: volume
-2024-09-22 00:27:10,101 - DEBUG - Identifier detected: volume
-2024-09-22 00:27:10,101 - DEBUG - Processing character: ' ' at position 308
-2024-09-22 00:27:10,101 - DEBUG - Skipping whitespace at position 308
-2024-09-22 00:27:10,101 - DEBUG - Processing character: '=' at position 309
-2024-09-22 00:27:10,101 - DEBUG - Operator detected: =
-2024-09-22 00:27:10,101 - DEBUG - Processing character: ' ' at position 310
-2024-09-22 00:27:10,101 - DEBUG - Skipping whitespace at position 310
-2024-09-22 00:27:10,101 - DEBUG - Processing character: 'c' at position 311
-2024-09-22 00:27:10,101 - DEBUG - Identifier detected: calculate_area
-2024-09-22 00:27:10,101 - DEBUG - Identifier detected: calculate_area
-2024-09-22 00:27:10,101 - DEBUG - Processing character: '(' at position 325
-2024-09-22 00:27:10,101 - DEBUG - Separator detected: (
-2024-09-22 00:27:10,101 - DEBUG - Processing character: 'l' at position 326
-2024-09-22 00:27:10,101 - DEBUG - Identifier detected: length
-2024-09-22 00:27:10,101 - DEBUG - Identifier detected: length
-2024-09-22 00:27:10,102 - DEBUG - Processing character: ')' at position 332
-2024-09-22 00:27:10,102 - DEBUG - Separator detected: )
-2024-09-22 00:27:10,102 - DEBUG - Processing character: ' ' at position 333
-2024-09-22 00:27:10,102 - DEBUG - Skipping whitespace at position 333
-2024-09-22 00:27:10,102 - DEBUG - Processing character: '*' at position 334
-2024-09-22 00:27:10,102 - DEBUG - Operator detected: *
-2024-09-22 00:27:10,103 - DEBUG - Processing character: ' ' at position 335
-2024-09-22 00:27:10,103 - DEBUG - Skipping whitespace at position 335
-2024-09-22 00:27:10,103 - DEBUG - Processing character: 'h' at position 336
-2024-09-22 00:27:10,103 - DEBUG - Identifier detected: height
-2024-09-22 00:27:10,103 - DEBUG - Identifier detected: height
-2024-09-22 00:27:10,103 - DEBUG - Processing character: ' ' at position 342
-2024-09-22 00:27:10,104 - DEBUG - Skipping whitespace at position 342
-2024-09-22 00:27:10,104 - DEBUG - Processing character: '/' at position 343
-2024-09-22 00:27:10,104 - DEBUG - Operator detected: /
-2024-09-22 00:27:10,104 - DEBUG - Processing character: ' ' at position 344
-2024-09-22 00:27:10,104 - DEBUG - Skipping whitespace at position 344
-2024-09-22 00:27:10,104 - DEBUG - Processing character: '3' at position 345
-2024-09-22 00:27:10,104 - DEBUG - Number detected: 3.0, Real: True
-2024-09-22 00:27:10,104 - DEBUG - Real number detected: 3.0
-2024-09-22 00:27:10,105 - DEBUG - Processing character: ';' at position 348
-2024-09-22 00:27:10,105 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,105 - DEBUG - Processing character: '
-' at position 349
-2024-09-22 00:27:10,105 - DEBUG - Skipping whitespace at position 349
-2024-09-22 00:27:10,105 - DEBUG - Processing character: '
-' at position 350
-2024-09-22 00:27:10,105 - DEBUG - Skipping whitespace at position 350
-2024-09-22 00:27:10,105 - DEBUG - Processing character: 'p' at position 351
-2024-09-22 00:27:10,105 - DEBUG - Identifier detected: put
-2024-09-22 00:27:10,105 - DEBUG - Keyword detected: put
-2024-09-22 00:27:10,106 - DEBUG - Processing character: '(' at position 354
-2024-09-22 00:27:10,106 - DEBUG - Separator detected: (
-2024-09-22 00:27:10,106 - DEBUG - Processing character: 'v' at position 355
-2024-09-22 00:27:10,106 - DEBUG - Identifier detected: volume
-2024-09-22 00:27:10,106 - DEBUG - Identifier detected: volume
-2024-09-22 00:27:10,106 - DEBUG - Processing character: ')' at position 361
-2024-09-22 00:27:10,106 - DEBUG - Separator detected: )
-2024-09-22 00:27:10,106 - DEBUG - Processing character: ';' at position 362
-2024-09-22 00:27:10,106 - DEBUG - Separator detected: ;
-2024-09-22 00:27:10,107 - DEBUG - Processing character: '
-' at position 363
-2024-09-22 00:27:10,107 - DEBUG - Skipping whitespace at position 363
-2024-09-22 00:27:10,107 - INFO - Lexer finished processing source code.
-2024-09-22 00:27:10,121 - INFO - Lexer program completed.
+2024-10-06 11:00:29,169 - INFO - Lexer program started.
+2024-10-06 11:00:29,169 - INFO - Reading source code from file: testcase1.txt
+2024-10-06 11:00:29,171 - INFO - Lexer started processing source code.
+2024-10-06 11:00:29,171 - DEBUG - Processing character: 'w' at position 0
+2024-10-06 11:00:29,171 - DEBUG - Identifier detected: while
+2024-10-06 11:00:29,171 - DEBUG - Keyword detected: while
+2024-10-06 11:00:29,171 - DEBUG - Processing character: ' ' at position 5
+2024-10-06 11:00:29,172 - DEBUG - Skipping whitespace at position 5
+2024-10-06 11:00:29,172 - DEBUG - Processing character: '(' at position 6
+2024-10-06 11:00:29,172 - DEBUG - Separator detected: (
+2024-10-06 11:00:29,172 - DEBUG - Processing character: 'f' at position 7
+2024-10-06 11:00:29,172 - DEBUG - Identifier detected: fahr
+2024-10-06 11:00:29,172 - DEBUG - Identifier detected: fahr
+2024-10-06 11:00:29,172 - DEBUG - Processing character: ' ' at position 11
+2024-10-06 11:00:29,172 - DEBUG - Skipping whitespace at position 11
+2024-10-06 11:00:29,172 - DEBUG - Processing character: '<' at position 12
+2024-10-06 11:00:29,172 - DEBUG - Operator detected: <=
+2024-10-06 11:00:29,172 - DEBUG - Processing character: ' ' at position 14
+2024-10-06 11:00:29,172 - DEBUG - Skipping whitespace at position 14
+2024-10-06 11:00:29,174 - DEBUG - Processing character: 'u' at position 15
+2024-10-06 11:00:29,174 - DEBUG - Identifier detected: upper
+2024-10-06 11:00:29,174 - DEBUG - Identifier detected: upper
+2024-10-06 11:00:29,174 - DEBUG - Processing character: ')' at position 20
+2024-10-06 11:00:29,174 - DEBUG - Separator detected: )
+2024-10-06 11:00:29,174 - DEBUG - Processing character: ' ' at position 21
+2024-10-06 11:00:29,174 - DEBUG - Skipping whitespace at position 21
+2024-10-06 11:00:29,174 - DEBUG - Processing character: 'a' at position 22
+2024-10-06 11:00:29,174 - DEBUG - Identifier detected: a
+2024-10-06 11:00:29,174 - DEBUG - Identifier detected: a
+2024-10-06 11:00:29,174 - DEBUG - Processing character: ' ' at position 23
+2024-10-06 11:00:29,174 - DEBUG - Skipping whitespace at position 23
+2024-10-06 11:00:29,174 - DEBUG - Processing character: '=' at position 24
+2024-10-06 11:00:29,174 - DEBUG - Operator detected: =
+2024-10-06 11:00:29,174 - DEBUG - Processing character: ' ' at position 25
+2024-10-06 11:00:29,176 - DEBUG - Skipping whitespace at position 25
+2024-10-06 11:00:29,176 - DEBUG - Processing character: '2' at position 26
+2024-10-06 11:00:29,176 - DEBUG - Number detected: 23.00, Real: True
+2024-10-06 11:00:29,176 - DEBUG - Real number detected: 23.00
+2024-10-06 11:00:29,176 - DEBUG - Processing character: ';' at position 31
+2024-10-06 11:00:29,176 - DEBUG - Separator detected: ;
+2024-10-06 11:00:29,176 - DEBUG - Processing character: ' ' at position 32
+2024-10-06 11:00:29,176 - DEBUG - Skipping whitespace at position 32
+2024-10-06 11:00:29,176 - DEBUG - Processing character: '[' at position 33
+2024-10-06 11:00:29,176 - INFO - Comment block detected.
+2024-10-06 11:00:29,176 - DEBUG - Comment block ends at position 53
+2024-10-06 11:00:29,176 - DEBUG - Skipped comment block, new position: 55
+2024-10-06 11:00:29,176 - INFO - Lexer finished processing source code.
+2024-10-06 11:00:29,176 - INFO - Lexer program completed.
