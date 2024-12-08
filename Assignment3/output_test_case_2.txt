@@ -1,0 +1,25 @@
+Symbol Table:
+Identifier      MemoryLocation       Type      
+x               9000                 integer   
+y               9001                 integer   
+z               9002                 integer   
+
+Assembly Code:
+Address    Operation       Operand   
+1          PUSHI           5
+2          POPM            9000
+3          PUSHI           10
+4          POPM            9001
+5          PUSHM           9000
+6          PUSHM           9001
+7          ADD             
+8          PUSHM           9000
+9          PUSHM           9001
+10         SUB             
+11         MUL             
+12         PUSHI           5
+13         DIV             
+14         POPM            9002
+15         PUSHM           9002
+16         STDOUT          
+

@@ -1,0 +1,6 @@
+integer num;
+get(num);
+if (num > 10) {
+    put(num);
+}
+fi

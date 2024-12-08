@@ -1,0 +1,8 @@
+integer count, total;
+count = 1;
+total = 0;
+while (count <= 5) {
+    total = total + count;
+    put(total);
+    count = count + 1;
+}

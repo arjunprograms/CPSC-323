@@ -1,0 +1,16 @@
+Symbol Table:
+Identifier      MemoryLocation       Type      
+num             9000                 integer   
+
+Assembly Code:
+Address    Operation       Operand   
+1          STDIN           
+2          POPM            9000
+3          PUSHM           9000
+4          PUSHI           10
+5          GTR             
+6          JUMPZ           9
+7          PUSHM           9000
+8          STDOUT          
+9          NOP             
+
