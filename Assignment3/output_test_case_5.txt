@@ -1,0 +1,44 @@
+Symbol Table:
+Identifier      MemoryLocation       Type      
+i               9000                 integer   
+j               9001                 integer   
+num             9002                 integer   
+
+Assembly Code:
+Address    Operation       Operand   
+1          PUSHI           3
+2          POPM            9000
+3          LABEL           
+4          PUSHM           9000
+5          PUSHI           0
+6          GTR             
+7          JUMPZ           35
+8          PUSHI           2
+9          POPM            9001
+10         LABEL           
+11         PUSHM           9001
+12         PUSHI           0
+13         GTR             
+14         JUMPZ           29
+15         STDIN           
+16         POPM            9002
+17         PUSHM           9002
+18         PUSHM           9000
+19         GTR             
+20         JUMPZ           23
+21         PUSHM           9002
+22         STDOUT          
+23         NOP             
+24         PUSHM           9001
+25         PUSHI           1
+26         SUB             
+27         POPM            9001
+28         JUMP            10
+29         NOP             
+30         PUSHM           9000
+31         PUSHI           1
+32         SUB             
+33         POPM            9000
+34         JUMP            3
+35         NOP             
+
